@@ -1,14 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
   <body>
+    <header>
     <h1>Simon<sup>&reg;</sup></h1>
     <nav>
-      <ol>
-        <li><a href = "home.html">Home</a>></a></li>
-        <li><a href = "play.html">Play</a>></a></li>
+      <ul>
+        <li><a href = "index.html">Home</a></a></li>
+        <li><a href = "play.html">Play</a></a></li>
         <li><a href = "scores.html">Scores</a></li>
         <li><a href = "about.html">About</a></li>
-      </ol>
+      </ul>
     </nav>
+    <hr />
+    </header>
+
+    <main>
+      <div class="players">
+        Player:
+        <span class="player-name">Mystery player</span>
+      </div>
+      
+      <br />
+
+      <div>
+        <label for="count">Score</label>
+        <input type="text" id="count" value="--" readonly />
+      </div>
+
+      <br />
+
+      <div>
+        <button>Reset</button>
+      </div>
+      <hr />
+    </main>
+
+    <br />
+
+    <footer>
+      <span class = "text-reset">Author Name(s)</span>
+      <a href="https://github.com/webprogramming260/simon-html">GitHub</a>
+    </footer>
+
   </body>
 </html>
