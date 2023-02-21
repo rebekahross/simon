@@ -6,18 +6,21 @@ body {
 
 header {
   flex: 0 80px;
+  background-color: rgb(27, 14, 100);
 }
 
 main {
-  flex: 1 calc(100vh -110px);
+  flex: 1 calc(100vh - 110px);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  background-color: rgb(190, 190, 190);
 }
 
 footer {
   flex: 0 30px;
+  background-color: rgb(27, 14, 100);
 }
 
 menu {
@@ -29,7 +32,7 @@ menu {
 
 .navbar-brand {
   padding-left: 0.3em;
-  border-bottom: solid rgb(182, 182, 182) thin;
+  border-bottom: solid rgb(40, 66, 240) thin;
 }
 
 menu .nav-item {
@@ -51,7 +54,7 @@ footer a {
 }
 
 .player-name {
-  color: rgb(118, 190, 210);
+  color: rgb(40, 66, 240);
 }
 
 .game {
@@ -120,6 +123,7 @@ footer a {
   font-size: 2em;
   font-weight: bold;
   margin-bottom: 0.5em;
+  color: rgb(190, 190, 190);
 }
 
 .score {
