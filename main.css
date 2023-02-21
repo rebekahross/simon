@@ -55,6 +55,7 @@ footer a {
 
 .player-name {
   color: rgb(40, 66, 240);
+  font-weight: bold;
 }
 
 .game {
